@@ -26,17 +26,21 @@ void push(node *&head, int digit) {
     head = nn;
 }
 
-void pop(node *&head) {
+int pop(node *&head) {
+    int digit = -1;
     if (head) {
+        digit = head->digit;
         node *temp = head;
         head = head->next;
         delete temp;
     }
+    return digit;
 }
 
 void displayStack(node *&head) {
     while (head) {
-        switch (head->digit) {
+        int digit = pop(head);
+        switch (digit) {
             case 10:
                 cout << 'A';
                 break;
@@ -56,9 +60,8 @@ void displayStack(node *&head) {
                 cout << 'F';
                 break;
             default:
-                cout << head->digit;
+                cout << digit;
         }
-        pop(head);
     }
     cout << endl;
 }
