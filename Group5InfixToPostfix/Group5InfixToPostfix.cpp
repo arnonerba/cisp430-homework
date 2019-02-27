@@ -14,7 +14,7 @@ using namespace std;
 
 struct node {
     char data;
-    node* next;
+    node *next;
 };
 
 void push(node *&head, char data) {

@@ -12,7 +12,7 @@ using namespace std;
 
 struct node {
     int digit;
-    node* next;
+    node *next;
 };
 
 void push(node *&head, int digit) {

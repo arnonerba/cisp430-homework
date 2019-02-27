@@ -13,7 +13,7 @@ using namespace std;
 
 struct node {
     string name;
-    node* next;
+    node *next;
 };
 
 node *ReadFile(ifstream &inputFile) {

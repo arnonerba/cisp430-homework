@@ -13,7 +13,7 @@ using namespace std;
 
 struct node {
     int data;
-    node* next;
+    node *next;
 };
 
 void push(node *&head, int data) {

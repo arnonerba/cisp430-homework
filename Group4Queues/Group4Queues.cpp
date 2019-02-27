@@ -14,7 +14,7 @@ using namespace std;
 
 struct node {
     int data;
-    node* next;
+    node *next;
 };
 
 void enqueue(node *&front, node *&rear, int data) {
