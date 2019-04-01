@@ -1,6 +1,6 @@
 //
 //  Author: Arnon Erba
-//  Assignment: Group 8 Radix Sort
+//  Assignment: Group 8.5 Radix Sort
 //  Objective: Sort an array of numbers in ascending
 //  and descending order using radix sort.
 //
