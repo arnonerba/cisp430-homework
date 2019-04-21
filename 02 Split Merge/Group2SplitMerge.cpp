@@ -1,6 +1,6 @@
 //
 //  Author: Arnon Erba
-//  Assignment: Group 2 SplitMerge
+//  Assignment: Group 2 Split Merge
 //  Objective: Read names from a file into a linked list. Split
 //  and merge the linked list.
 //
